@@ -17,7 +17,6 @@ public class ATMSimulator {
 	public void run() {
 		try {
 			atm.init();
-
 		}
 		catch(IOException e) {
 			System.out.println("Error reading account data.");
